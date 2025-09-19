@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colspan and Rowspan</title>
+</head>
+<body>
+    <h2>product sales report</h2>
+    <table border="2"> 
+        <thead>
+            <tr> 
+                <th rowspan="2">Category</th>
+                <th colsspan="2">Q1 sales</th>
+                <th colspan="2">Q2 sales</th>
+            </tr>
+            <tr>
+                <th>Product A</th>
+                <th>Product B</th>
+                <th>Product A</th>
+                <th>Product B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Electronics</td>
+                <td>100</td>
+                <td>150</td>
+                <td>120</td>
+                <td>180</td>
+            </tr>
+            <tr>
+                <td>Apparels</td>
+                <td>200</td>
+                <td>159</td>
+                <td>135</td>
+                <td>198</td>
+            </tr>
+            <tr>
+                <td colspan="5">Summary:Combined Q1 and Q2 sales for all products </td>
+            </tr>
+        </tbody>
+        </table>
+    </table>
+</body>
+</html>
